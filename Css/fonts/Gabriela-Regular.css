@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Gabriela';
+    src: url('Gabriela-Regular.eot');
+    src: url('Gabriela-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gabriela-Regular.woff2') format('woff2'),
+        url('Gabriela-Regular.woff') format('woff'),
+        url('Gabriela-Regular.ttf') format('truetype'),
+        url('Gabriela-Regular.svg#Gabriela-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

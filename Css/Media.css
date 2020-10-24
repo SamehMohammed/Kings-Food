@@ -1,0 +1,480 @@
+@media (min-width: 475px) {
+  .container {
+    max-width: auto;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  /* Medium Devices => Tablets */
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  /* Desktops */
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  /* Large Screens */
+  .container {
+    max-width: 1160px;
+  }
+}
+/*
+===================
+  Start Home Page
+===================
+*/
+@media (max-width: 1199px) {
+  .Home-Page header .Link-home li {
+    margin-left: 5px;
+  }
+  header .border-header {
+    margin: 25px 0px 0 15px;
+  }
+  header .icon-More {
+    width: 33px;
+    height: 33px;
+    line-height: 32px;
+  }
+  header.header-Sticky .icon-More {
+    line-height: 34px;
+  }
+  .Home-Page .interduction-text h1 {
+    font-size: 29px;
+  }
+  .Home-Page .interduction-text p {
+    font-size: 16px;
+  }
+  .Page-Title {
+    font-size: 28px;
+  }
+  .form-svg {
+    width: calc(225% + 1.3px);
+  }
+  /* About Us */
+  .About-Us .We-present-to-you .section-title {
+    width: 50%;
+  }
+  .About-Us .We-present-to-you .section-title h2 {
+    font-size: 28px;
+  }
+  .About-Us .We-present-to-you .entry-meta {
+    margin: 0 0 100px 0;
+  }
+  .About-Us .We-present-to-you .section-img {
+    top: 50px;
+    position: relative;
+  }
+  .About-Us .OurRestaurant-title h2 {
+    font-size: 33px;
+  }
+  /* Ingredient */
+  .Ingredient .ingredient-p {
+    font-size: 55px;
+  }
+  .Ingredient .desc-center {
+    width: 40%;
+  }
+  /* Menu */
+  .Menu .burger-menu .menu-data {
+    width: 46%;
+  }
+  .Menu .burger-menu .menu-data .data-content .title-area .title {
+    font-size: 19px;
+  }
+  .Menu .burger-menu .menu-data .data-content .title-area .price {
+    font-size: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .Home-Page header .Link-home {
+    display: none;
+    line-height: 32px;
+  }
+  .Home-Page header.header-Sticky .Link-home {
+    line-height: 32px;
+    box-shadow: var(--box-shadow);
+  }
+  .Home-Page header .Link-home.open {
+    background-color: var(--bg-Secondly);
+    position: absolute;
+    width: 79%;
+    padding: 10px 15px 10px 15px;
+    display: block;
+    left: 0;
+    top: 76px;
+    text-align: left;
+    border-bottom-left-radius: 30px;
+  }
+  .Home-Page header.header-Sticky .Link-home.open {
+    top: 71px;
+  }
+  .Home-Page header .Link-home.open li {
+    display: block;
+  }
+  .Home-Page header .Link-home.open li a {
+    color: var(--main-color);
+    font-weight: bold;
+    line-height: 32px;
+  }
+  .Home-Page header .Link-home.open li a:hover {
+    color: #3a3a3a;
+  }
+  .Home-Page header .toggle-menu {
+    display: inline-block;
+    position: relative;
+  }
+  .Home-Page .interduction-text {
+    width: 66%;
+  }
+  /* About Us */
+  .Page-Title {
+    font-size: 27px;
+  }
+  .About-Us .We-present-to-you .section-title h2 {
+    font-size: 24px;
+  }
+  .About-Us .We-present-to-you .section-title p {
+    font-size: 13px;
+  }
+  .About-Us .We-present-to-you .section-img {
+    top: 90px;
+    width: 70%;
+  }
+  .About-Us .OurRestaurant-title .Dinner {
+    font-size: 17px;
+  }
+  .About-Us .OurRestaurant-title h2 {
+    font-size: 27px;
+  }
+  .About-Us .OurRestaurant-title p {
+    margin: 22px 0;
+    font-size: 13px;
+  }
+  .About-Us .OurRestaurant-title button {
+    padding: 9px 22px;
+  }
+  .Ingredient {
+    height: 875px;
+  }
+  .Ingredient .ingredient-p {
+    font-size: 40px;
+  }
+  .Ingredient .desc-left,
+  .Ingredient .desc-right {
+    width: auto;
+    height: auto;
+  }
+  .Ingredient .desc-center {
+    position: relative;
+  }
+  .Ingredient .desc-center img {
+    margin: 30px 0;
+  }
+  .Ingredient .desc-left .desc-One,
+  .Ingredient .desc-left .desc-Two,
+  .Ingredient .desc-left .desc-Three,
+  .Ingredient .desc-right .desc-One,
+  .Ingredient .desc-right .desc-Two,
+  .Ingredient .desc-right .desc-Three {
+    width: 30%;
+    margin: 0 0 0 20px;
+    display: inline-block;
+  }
+  .Ingredient .desc-right {
+    text-align: left;
+  }
+  .Menu {
+    height: 1900px;
+  }
+  .Menu .burger-menu .menu-data {
+    width: 100%;
+    float: none;
+    margin: 40px 0px;
+    justify-content: center;
+  }
+  .Menu .burger-menu .menu-data .menu-image {
+    width: 13%;
+    position: relative;
+    top: -7px;
+    padding-right: 15px;
+  }
+  .Table {
+    height: 1100px;
+  }
+  .Table .reservation-inner {
+    display: grid;
+    text-align: center;
+    padding: 0;
+  }
+  .Table .reservation-inner .Reservation {
+    width: 100%;
+  }
+  .Table .reservation-inner .Reservation h2,
+  .Table .reservation-inner .Select-data h2 {
+    text-align: left;
+    padding-left: 18px;
+    margin: 0 0 15px 0;
+  }
+  .Table .reservation-inner .Select-data {
+    width: 94.5%;
+    padding-left: 17px;
+  }
+  .Table .reservation-inner .Select-data h2 {
+    padding-left: 0px;
+  }
+  .Table .reservation-inner .btn {
+    text-align: left;
+    padding-left: 16px;
+    bottom: -78px;
+    margin: 20px 0;
+  }
+  .footer {
+    height: 425px;
+  }
+  .footer-fixed .line-Page-title {
+    padding: 20px 0;
+  }
+  .footer-fixed .line-Page-title .img-footer {
+    height: 175px;
+  }
+  .footer-fixed .footer-content {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+  }
+  .footer-fixed .footer-content .content-f {
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+    margin: 0;
+  }
+}
+@media (max-width: 767px) {
+  .nav-bullet,
+  .social-box {
+    display: none;
+  }
+  .settings-box .toggle-settings,
+  .settings-box.open {
+    display: block;
+  }
+  .Home-Page header .Link-home.open {
+    width: 100%;
+  }
+  header .Setting-Icon {
+    display: none;
+  }
+  header .border-header {
+    display: none;
+  }
+  header .Setting-Icon-sm {
+    display: inline-flex;
+  }
+  header .border-header-sm {
+    display: block;
+  }
+  .Home-Page .interduction-text {
+    width: 80%;
+  }
+  .Home-Page .interduction-text h1 {
+    font-size: 27px;
+  }
+  .Home-Page .interduction-text p {
+    font-size: 13px;
+  }
+  .form-svg {
+    width: calc(245% + 1.3px);
+  }
+  /*  */
+  .Page-Title {
+    font-size: 23px;
+  }
+  /* About-Us */
+  .About-Us .We-present-to-you {
+    display: block;
+  }
+  .About-Us .We-present-to-you .section-title {
+    width: 100%;
+  }
+  .About-Us .We-present-to-you .section-img {
+    width: 100%;
+    top: 8px;
+  }
+  .About-Us .We-present-to-you .section-title .welcome,
+  .About-Us .We-present-to-you .entry-meta {
+    text-align: center;
+    display: block;
+  }
+  .About-Us .We-present-to-you .entry-meta {
+    margin: 0 0 100px 0;
+  }
+  .About-Us .Our-Restaurant {
+    display: block;
+    width: 100%;
+    height: 680px;
+    position: relative;
+    margin: 10px 0 40px 0;
+  }
+  .About-Us .Our-Restaurant-img {
+    width: 100%;
+    margin: 70px 0 30px 0;
+  }
+  .About-Us .OurRestaurant-title {
+    width: 100%;
+    margin: 75px 0 0 0;
+  }
+  /* Ingredient */
+  .Ingredient {
+    height: 770px;
+  }
+  .Ingredient .line-Page-title {
+    padding: 66px 0 10px 0;
+  }
+  .Ingredient .ingredient-p {
+    font-size: 30px;
+    text-align: center;
+  }
+  .Ingredient .desc-left,
+  .Ingredient .desc-right {
+    text-align: center;
+  }
+  .Ingredient .desc-left .desc-One,
+  .Ingredient .desc-left .desc-Two,
+  .Ingredient .desc-right .desc-One,
+  .Ingredient .desc-right .desc-Two {
+    width: 40%;
+    text-align: left;
+  }
+  .Ingredient .desc-left .desc-Three,
+  .Ingredient .desc-right .desc-Three {
+    display: none;
+  }
+  .Ingredient .desc-left .title,
+  .Ingredient .desc-right .title {
+    font-size: 15px;
+  }
+  .Ingredient .desc-left .description,
+  .Ingredient .desc-right .description {
+    font-size: 13px;
+  }
+  .Ingredient .desc-center {
+    width: 50%;
+  }
+  /*  */
+  .Menu {
+    height: 2110px;
+  }
+  .Menu .burger-menu .menu-data .menu-image {
+    width: 18%;
+    top: -5px;
+  }
+  /*  */
+  .Table .reservation-inner .Reservation h2,
+  .Table .reservation-inner .Select-data h2 {
+    font-size: 21px;
+  }
+  /*  */
+  .Order .menu-filter .menu-Or {
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+  /*  */
+  .footer-fixed .line-Page-title .img-footer {
+    height: 153px;
+  }
+  .footer-fixed .footer-content .content-f:nth-child(2),
+  .footer-fixed .footer-content .content-f:last-child {
+    display: none;
+  }
+  .footer-fixed .footer-content {
+    text-align: center;
+  }
+  .footer-fixed .footer-content .content-f {
+    text-align: center;
+  }
+  .footer-fixed .footer-content .address div:nth-child(2) {
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .social-box {
+    display: none;
+  }
+  header .border-header-sm,
+  header .Setting-Icon-sm {
+    display: none;
+  }
+  .form-svg {
+    width: calc(375% + 1.3px);
+  }
+  /*  */
+  .About-Us .We-present-to-you,
+  .About-Us .Our-Restaurant {
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .About-Us .Our-Restaurant {
+    height: 660px;
+  }
+  .Menu .burger-menu .menu-data .menu-image {
+    width: 17%;
+    top: 3px;
+  }
+  .Table .reservation-inner .Reservation {
+    width: 103%;
+  }
+  .Table .reservation-inner .btn {
+    bottom: -77px;
+  }
+}
+@media (max-width: 450px) {
+  .Home-Page {
+    min-height: 650px;
+  }
+  .About-Us .Our-Restaurant {
+    height: 570px;
+  }
+  .Ingredient {
+    height: 830px;
+  }
+  .Menu .burger-menu .menu-data .menu-image {
+    width: 31%;
+    top: 2px;
+  }
+  .Menu .burger-menu .menu-data .data-content .title-area .price {
+    font-size: 16px;
+    right: 72px;
+    top: 1px;
+  }
+  .Menu .burger-menu .menu-data .data-content .title-area .type {
+    padding: 1px 29px 2px 28px;
+    margin: 15px 0 15px 0;
+    right: -22px;
+  }
+  .Menu .burger-menu .menu-data .data-content .title-area .title {
+    font-size: 16px;
+  }
+  .footer {
+    height: 400px;
+  }
+  .footer-fixed .line-Page-title .img-footer {
+    height: 115px;
+  }
+  .footer-fixed .footer-content .content-f div {
+    font-size: 12px;
+  }
+  .footer-fixed .footer-desc {
+    font-size: 13px;
+  }
+}
